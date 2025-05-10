@@ -107,6 +107,7 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
+              <span className="block">UNISNU</span>
               <span className="block">National Business Plan</span>
             </motion.h1>
           </motion.div>

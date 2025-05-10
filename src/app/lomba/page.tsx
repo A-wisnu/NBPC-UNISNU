@@ -321,15 +321,15 @@ export default function CompetitionPage() {
                       <li className="flex items-start">
                         <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-600 font-bold flex-shrink-0 mr-4 mt-0.5">1</span>
                         <div>
-                          <p className="font-medium">Mahasiswa aktif S1/D3 dari perguruan tinggi di Indonesia</p>
-                          <p className="text-gray-500 text-sm mt-1">Dibuktikan dengan kartu mahasiswa yang masih berlaku</p>
+                          <p className="font-medium">Setiap peserta NBPC UNISNU 2025 merupakan mahasiswa aktif D3, D4/S1 di seluruh Indonesia</p>
+                          <p className="text-gray-500 text-sm mt-1">dibuktikan dengan melampirkan scan/foto KTM (Kartu Tanda Mahasiswa) saat proses pendaftaran.</p>
                         </div>
                       </li>
                       <li className="flex items-start">
                         <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-600 font-bold flex-shrink-0 mr-4 mt-0.5">2</span>
                         <div>
                           <p className="font-medium">Tim terdiri dari 3-5 orang dari institusi yang sama</p>
-                          <p className="text-gray-500 text-sm mt-1">Pastikan semua anggota berasal dari perguruan tinggi yang sama</p>
+                          <p className="text-gray-500 text-sm mt-1">Diperkenankan berbeda jurusan/prodi namun berasal dari satu perguruan tinggi yang sama.</p>
                         </div>
                       </li>
                       <li className="flex items-start">
@@ -342,8 +342,8 @@ export default function CompetitionPage() {
                       <li className="flex items-start">
                         <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-600 font-bold flex-shrink-0 mr-4 mt-0.5">4</span>
                         <div>
-                          <p className="font-medium">Memiliki ide bisnis inovatif atau bisnis yang belum beroperasi lebih dari 1 tahun</p>
-                          <p className="text-gray-500 text-sm mt-1">Ide bisnis harus original dan belum mendapatkan pendanaan signifikan</p>
+                          <p className="font-medium">Ide yang di daftarkan belum pernah/sedang diikutkan dalam kompetisi lain</p>
+                          <p className="text-gray-500 text-sm mt-1">Jika terdeteksi demikian, maka peserta akan di diskualifikasi.</p>
                         </div>
                       </li>
                       <li className="flex items-start">

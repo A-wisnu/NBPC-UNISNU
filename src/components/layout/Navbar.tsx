@@ -89,12 +89,12 @@ const Navbar = () => {
           className="flex items-center"
         >
           <Link href="/" className="flex items-center">
-            <div className="h-[50px] w-[120px] relative flex items-center">
+            <div className="h-[50px] w-[100px] relative flex items-center">
               <Image
                 src="/images/logo.png"
                 alt="NBPC Logo"
-                width={120}
-                height={50}
+                width={100}
+                height={30}
                 className="transition-all duration-300 object-contain"
                 priority
               />

@@ -39,13 +39,13 @@ const TeamSection = () => {
       leader: {
         name: 'M. Dalhar Afandi',
         role: 'Koordinator',
-        image: '/images/team/placeholder.jpg'
+        image: '/images/team/d_acara/Dalhar_Afandi.jpeg'
       },
       members: [
-        { name: 'Alif Fataya', image: '/images/team/placeholder.jpg' },
-        { name: 'Mohammad Affandi', image: '/images/team/placeholder.jpg' },
-        { name: 'Abid Azka Maulana', image: '/images/team/placeholder.jpg' },
-        { name: 'M. Afriza Maula Putra', image: '/images/team/placeholder.jpg' }
+        { name: 'Alif Fataya', image: '/images/team/d_acara/alif.jpeg' },
+        { name: 'Mohammad Affandi', image: '/images/team/d_acara/m_affandi.jpg' },
+        { name: 'Abid Azka Maulana', image: '/images/team/d_acara/abid.jpeg' },
+        { name: 'M. Afriza Maula Putra', image: '/images/team/d_acara/afriza.jpeg' }
       ],
       description: 'Divisi Acara bertanggung jawab untuk merencanakan, mengorganisir, dan mengeksekusi seluruh rangkaian acara NBPC.',
       responsibilities: [
@@ -64,10 +64,10 @@ const TeamSection = () => {
         image: 'https://i.pinimg.com/736x/58/78/7d/58787d2c5b21ade822eb0c7af134dcb5.jpg'
       },
       members: [
-        { name: 'M. Nabil Machasin', image: '/images/team/placeholder.jpg' },
-        { name: 'Dewi Arum Sari', image: '/images/team/placeholder.jpg' },
-        { name: 'Reihan Saputra', image: '/images/team/placeholder.jpg' },
-        { name: 'Dias Putra Kurnia Sandi', image: '/images/team/placeholder.jpg' }
+        { name: 'M. Nabil Machasin', image: '/images/team/d_pdd&it/nabil.jpg' },
+        { name: 'Dewi Arum Sari', image: '/images/team/d_pdd&it/arum.jpeg' },
+        { name: 'Reihan Saputra', image: '/images/team/d_pdd&it/Reihan.jpeg' },
+        { name: 'Dias Putra Kurnia Sandi', image: '/images/team/d_pdd&it/dias.JPG' }
       ],
       description: 'Divisi PDD (Publikasi, Dokumentasi & Dekorasi) dan IT bertanggung jawab untuk aspek visual, dokumentasi, dan teknologi dari keseluruhan acara NBPC.',
       responsibilities: [
@@ -84,12 +84,12 @@ const TeamSection = () => {
       leader: {
         name: 'Muhammad Farhan Sajid',
         role: 'Koordinator',
-        image: '/images/team/placeholder.jpg'
+        image: '/images/team/d_humas/farhan.jpeg'
       },
       members: [
-        { name: 'Muhammad Rafi Chalfian', image: '/images/team/placeholder.jpg' },
-        { name: 'Galeh', image: '/images/team/placeholder.jpg' },
-        { name: 'Syahreza Affandi', image: '/images/team/placeholder.jpg' }
+        { name: 'Muhammad Rafi Chalfian', image: '/images/team/d_humas/.jpg' },
+        { name: 'Galeh Kurniawan', image: '/images/team/d_humas/Galih.jpg' },
+        { name: 'Syahreza Affandi', image: '/images/team/d_humas/s-affandi.jpeg' }
       ],
       description: 'Divisi Humas (Hubungan Masyarakat) bertanggung jawab untuk membangun dan menjaga hubungan dengan berbagai pihak eksternal dan internal.',
       responsibilities: [
@@ -106,12 +106,12 @@ const TeamSection = () => {
       leader: {
         name: 'Farah Najwa Safitri',
         role: 'Koordinator',
-        image: '/images/team/placeholder.jpg'
+        image: '/images/team/d_konsum/Farah.jpeg'
       },
       members: [
-        { name: 'Anisa Saili Rifqoh', image: '/images/team/placeholder.jpg' },
-        { name: 'Latifatul Asna', image: '/images/team/placeholder.jpg' },
-        { name: 'Alyssa Dwi Septiani', image: '/images/team/placeholder.jpg' }
+        { name: 'Anisa Saili Rifqoh', image: '/images/team/d_konsum/anisa.jpeg' },
+        { name: 'Latifatul Asna', image: '/images/team/d_konsum/asna.jpeg' },
+        { name: 'Alyssa Dwi Septiani', image: '/images/team/d_konsum/.jpg' }
       ],
       description: 'Divisi Konsumsi bertanggung jawab untuk menyediakan dan mengelola kebutuhan makanan dan minuman selama rangkaian acara NBPC.',
       responsibilities: [
@@ -136,14 +136,14 @@ const TeamSection = () => {
   const pembina = {
     name: 'M. Mujab Juhaini',
     role: 'Pembina',
-    image: '/images/team/placeholder.jpg'
+    image: '/images/team/mujap.JPG'
   };
 
   // Ketua divisi
   const divisionHead = {
     name: 'Muchammad Dwi Rivaldo',
     role: 'Ketua',
-    image: '/images/team/placeholder.jpg'
+    image: '/images/team/rival.jpeg'
   };
 
   // Sekretariat
@@ -151,7 +151,7 @@ const TeamSection = () => {
     {
       name: 'Muhamad Rizal Nurdin',
       role: 'Sekretariat',
-      image: '/images/team/placeholder.jpg'
+      image: '/images/team/rizal.jpeg'
     },
     {
       name: 'Fenti Siti Fatimah',

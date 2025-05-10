@@ -58,58 +58,58 @@ const getNodeShadow = (color: string) => {
 // Timeline data
 const timelineItems = [
   {
-    title: 'Pendaftaran',
+    title: 'Pendaftaran dan Pengumpulan BMC',
     description: 'Registrasi tim dan ide bisnis',
-    date: '1 - 15 Agustus 2025',
+    date: '15 Mei - 30 Juni 2025',
     icon: <FiUsers className="text-blue-400" size={22} />,
     color: 'blue'
   },
   {
-    title: 'Pengumuman',
-    description: 'Pengumuman tim yang lolos seleksi',
-    date: '20 Agustus 2025',
+    title: 'Selelsi BMC',
+    description: 'Tim juri menilai dan menyeleksi dokumen BMC yang telah masuk.',
+    date: '01 Juli - 04 Juli 2025',
     icon: <FiCheck className="text-green-400" size={22} />,
     color: 'green'
   },
   {
-    title: 'Technical Meeting BMC',
-    description: 'Pembekalan penyusunan BMC',
-    date: '25 Agustus 2025',
+    title: 'Pengumuman BMC',
+    description: 'Hasil seleksi BMC diumumkan kepada peserta.',
+    date: '05 Juli 2025',
     icon: <FiCalendar className="text-purple-400" size={22} />,
     color: 'purple'
   },
   {
-    title: 'Final BMC',
-    description: 'Presentasi Business Model Canvas',
-    date: '10 September 2025',
+    title: 'Pengumpulan Proposal',
+    description: 'Peserta yang lolos wajib mengumpulkan proposal bisnis lengkap.',
+    date: '06 Juli - 11 Juli 2025',
     icon: <FiStar className="text-yellow-400" size={22} />,
     color: 'yellow'
   },
   {
-    title: 'Pengumpulan Proposal',
-    description: 'Submit proposal bisnis lengkap',
-    date: '20 September 2025',
+    title: 'Seleksi Proposal',
+    description: 'Proposal akan dinilai untuk menentukan finalis.',
+    date: '12 Juli - 14 Juli 2025',
     icon: <FiFileText className="text-cyan-400" size={22} />,
     color: 'cyan'
   },
   {
-    title: 'Penentuan 6 Besar',
-    description: 'Seleksi 6 tim finalis',
-    date: '1 Oktober 2025',
+    title: 'Pengumuman Finalis',
+    description: 'Peserta terpilih sebagai finalis diumumkan secara resmi.',
+    date: '15 Juli 2025',
     icon: <FiAward className="text-indigo-400" size={22} />,
     color: 'indigo'
   },
   {
-    title: 'Presentasi Tim',
-    description: 'Presentasi final di hadapan juri',
-    date: '15 Oktober 2025',
+    title: 'Technical Meeting',
+    description: 'Briefing teknis bagi finalis terkait tahap presentasi.',
+    date: '16 Juli 2025',
     icon: <FiMic className="text-orange-400" size={22} />,
     color: 'orange'
   },
   {
-    title: 'Final Juara',
-    description: 'Pengumuman pemenang kompetisi',
-    date: '20 Oktober 2025',
+    title: 'Pengumpulan PPT',
+    description: 'Finalis menyerahkan materi presentasi (PPT) untuk dinilai.',
+    date: '22 Juli 2025',
     icon: <GiTrophy className="text-amber-400" size={22} />,
     color: 'amber'
   }

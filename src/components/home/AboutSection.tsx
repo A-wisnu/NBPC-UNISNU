@@ -1,8 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
-import { useRef, useState, useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 // Komponen ikon SVG profesional
 const InnovationIcon = () => (
@@ -178,10 +177,11 @@ const AboutSection = () => {
               
               <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 mx-auto mb-8" />
               
-              <p className="text-lg md:text-xl leading-relaxed text-gray-300 max-w-3xl mx-auto">
-                NBP Competition adalah ajang tahunan untuk menantang kreativitas dan
-                inovasi bisnis generasi muda Indonesia. Dengan bimbingan mentor profesional,
-                kompetisi ini menjadi platform lahirnya entrepreneur masa depan.
+              <p className="text-lg md:text-xl leading-relaxed text-gray-300 max-w-5xl mx-auto">
+              National Business Plan Competition 2025 (NBPC 2025) adalah kompetisi tahunan
+              berskala nasional yang diselenggarakan oleh Pusat Kewirausahaan Unisnu dan pada tahun ini
+              memasuki penyelenggaraan yang kedua kalinya. Kompetisi ini bertujuan untuk mendorong semangat kewirausahaan
+              generasi muda Indonesia melalui pengembangan ide bisnis yang inovatif, aplikatif, dan berkelanjutan.
               </p>
             </div>
             
@@ -346,12 +346,13 @@ const AboutSection = () => {
             />
             
             <motion.p 
-              className="text-lg md:text-xl leading-relaxed text-gray-300 max-w-3xl mx-auto"
+              className="text-lg md:text-xl leading-relaxed text-gray-300 max-w-5xl mx-auto"
               variants={textVariants}
             >
-              NBP Competition adalah ajang tahunan untuk menantang kreativitas dan
-              inovasi bisnis generasi muda Indonesia. Dengan bimbingan mentor profesional,
-              kompetisi ini menjadi platform lahirnya entrepreneur masa depan.
+              National Business Plan Competition 2025 (NBPC 2025) adalah kompetisi tahunan
+              berskala nasional yang diselenggarakan oleh Pusat Kewirausahaan Unisnu dan pada tahun ini
+              memasuki penyelenggaraan yang kedua kalinya. Kompetisi ini bertujuan untuk mendorong semangat kewirausahaan
+              generasi muda Indonesia melalui pengembangan ide bisnis yang inovatif, aplikatif, dan berkelanjutan.  
             </motion.p>
           </motion.div>
           
@@ -394,7 +395,7 @@ const AboutSection = () => {
               peserta dari seluruh Indonesia dalam kompetisi bisnis paling bergengsi tahun ini.
             </p>
             
-            <motion.a 
+            {/* <motion.a 
               href="https://s.id/LinkPendaftaranNBPC"
               target="_blank" 
               rel="noopener noreferrer"
@@ -403,7 +404,7 @@ const AboutSection = () => {
               whileTap={{ scale: 0.95 }}
             >
               Daftar Sekarang
-            </motion.a>
+            </motion.a> */}
           </motion.div>
         </div>
       </div>
