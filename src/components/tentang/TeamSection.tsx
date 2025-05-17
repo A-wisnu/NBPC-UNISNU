@@ -152,7 +152,7 @@ const TeamSection = () => {
   const divisionHead = {
     name: 'Muchammad Dwi Rivaldo',
     role: 'Ketua',
-    image: '/images/team/rival.jpeg'
+    image: '/images/team/rivaldo.jpeg'
   };
 
   // Bendahara 

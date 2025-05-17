@@ -289,7 +289,7 @@ const Footer = () => {
         
         <div className="mt-10 pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-xs mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} by Komunitas Kewirausahaan.
+            &copy; {new Date().getFullYear()} by Unisnu Business Community.
           </p>
           <div className="flex flex-wrap justify-center space-x-4 text-xs text-gray-500">
             <button 
@@ -299,7 +299,7 @@ const Footer = () => {
               Kebijakan Privasi
             </button>
             <button 
-              onClick={() => setActivePopup('terms')}
+              onClick={() => setActivePopup('terms')} 
               className="hover:text-blue-300 transition-colors mb-2 md:mb-0 cursor-pointer"
             >
               Syarat & Ketentuan

@@ -450,7 +450,7 @@ export default function CompetitionPage() {
                   transition={{ type: "spring", stiffness: 300, damping: 20 }}
                 >
                   <img 
-                    src="/images/poster-nbpc.jpg" 
+                    src="/images/pamflet.png" 
                     alt="Pamflet NBPC 2025" 
                     className="w-full h-auto"
                   />
@@ -557,7 +557,7 @@ export default function CompetitionPage() {
                     className="flex flex-col sm:flex-row gap-4"
                   >
                     <a 
-                      href="/files/pamflet_2025.jpg" 
+                      href="/files/pamflet.png" 
                       download
                       className="flex-1 px-6 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl font-medium flex items-center justify-center shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all"
                     >
